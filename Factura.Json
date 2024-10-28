@@ -1,0 +1,57 @@
+{
+  "factura": {
+    "informacion_negocio": {
+      "nombre": "Business name",
+      "telefono": "(000) 000-0000",
+      "direccion": {
+        "calle": "Street address",
+        "ciudad_estado_codigo_postal": "City, State, Zip Code"
+      },
+      "email": "Email",
+      "sitio_web": "Website"
+    },
+    "cliente": {
+      "facturar_a": {
+        "nombre": "Client name",
+        "direccion": {
+          "calle": "Street address",
+          "ciudad_estado_codigo_postal": "City, State, Zip Code"
+        }
+      },
+      "enviar_a": {
+        "nombre": "Client name",
+        "direccion": {
+          "calle": "Street address",
+          "ciudad_estado_codigo_postal": "City, State, Zip Code"
+        }
+      }
+    },
+    "detalles_factura": {
+      "numero_factura": 12345,
+      "fecha_factura": "mm/dd/yyyy",
+      "terminos": "Net 30",
+      "fecha_vencimiento": "mm/dd/yyyy"
+    },
+    "descripcion_servicios": [
+      {
+        "producto_servicio": "Product or service",
+        "descripcion": "Describe your product or service",
+        "cantidad_horas": 0,
+        "tarifa": 0,
+        "monto": 0
+      },
+      {
+        "producto_servicio": "Product or service",
+        "descripcion": "Describe your product or service",
+        "cantidad_horas": 0,
+        "tarifa": 0,
+        "monto": 0
+      }
+    ],
+    "mensajes_cliente": "Hello! Thank you for your purchase. Please return this invoice with payment. Thanks!",
+    "subtotal": 0.00,
+    "impuesto_ventas": 0.00,
+    "envio": 0.00,
+    "total": 0.00
+  }
+}
